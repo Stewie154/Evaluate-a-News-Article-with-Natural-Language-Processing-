@@ -23,15 +23,16 @@
 
         <main>
             <section>
+                <h1>Text Analyse</h1>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
                     <input id="text" type="text" name="input" value="" onblur="onBlur()" placeholder="Enter Text for Analysis:">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                    <input type="submit" name="" value="Analyse" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             </section>
 
-            <section>
-                <strong>Form Results:</strong>
-                <div id="results"></div>
+            <section class="results-display">
+                <strong>Results:</strong>
+                <div>Agreement/Disagreement: <span id="agreement"></span></div>
             </section>
         </main>
 
