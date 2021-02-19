@@ -28,6 +28,6 @@ app.listen(3000, function () {
 })
 
 app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
+    res.send(apiKey)
 })
 
