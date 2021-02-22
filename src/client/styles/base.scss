@@ -15,17 +15,31 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     section {
         min-width: 60%;
-        background-color: blue;
+        background-color: rgb(218, 218, 236);
+        border-radius: 5px;
         h1 {
             text-align: center;
             font-size: 4em;
             text-decoration: underline;
         }
     }
-    
+    .results-display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(218, 218, 236);
+        min-height: 20vh;
+        border-radius: 5px;
+
+        h2 {
+            font-size: 3em;
+            text-decoration: underline;
+        }
+    }
 }
 
 
