@@ -17,7 +17,7 @@ console.log(__dirname)
 
 //retrieve api key from .env file 
 const apiKey = process.env.API_KEY
- console.log(`Your api key is:  + ${apiKey}`)
+ console.log(`Your api key is: ${apiKey}`)
 
 // app.get('/', function (req, res) {
 //     // res.sendFile('dist/index.html')
