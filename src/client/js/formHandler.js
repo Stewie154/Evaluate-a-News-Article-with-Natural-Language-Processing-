@@ -1,3 +1,5 @@
+import {displayResults} from './displayResults'
+
 const handleSubmit = async (event) => {
     event.preventDefault()
     // check what text was put into the form field
@@ -10,19 +12,12 @@ const handleSubmit = async (event) => {
         .then(res => res.json())
         .then(function(res) {
             console.log(res)
-            //display results to user
-            document.getElementById('agreement').innerHTML = res.agreement
-            document.getElementById('confidence').innerHTML = res.confidence
-            document.getElementById('irony').innerHTML = res.irony
+            displayResults(res)
         })
-      
 
     } catch (error) {
         console.log('Error!', error)
     }
-    
-    
- 
 }
 
 export { handleSubmit }
