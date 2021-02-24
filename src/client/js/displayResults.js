@@ -1,5 +1,10 @@
 export const displayResults = (data) => {
-    document.getElementById('agreement').innerHTML = data.agreement
-    document.getElementById('confidence').innerHTML = data.confidence
-    document.getElementById('irony').innerHTML = data.irony
+    //grab elements
+    const agreement = document.getElementById('agreement');
+    const confidence = document.getElementById('confidence');
+    const irony = document.getElementById('irony');
+    //display data
+    agreement.innerHTML = data.agreement
+    confidence.innerHTML = data.confidence
+    irony.innerHTML = data.irony
 }
