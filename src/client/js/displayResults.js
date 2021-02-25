@@ -7,4 +7,5 @@ export const displayResults = (data) => {
     agreement.innerHTML = data.agreement
     confidence.innerHTML = data.confidence
     irony.innerHTML = data.irony
+    
 }
