@@ -1,6 +1,7 @@
 import {displayResults} from './displayResults'
+import {formTextValue} from './formTextValue'
 const handleSubmit = async (event) => {
-    let formText = document.getElementById('text').value
+    let formText = formTextValue()
     event.preventDefault()
     return new Promise( (resolve, reject) => {
         fetch('http://localhost:3000/submit?' + new URLSearchParams({
