@@ -1,7 +1,7 @@
 import {displayResults} from '../client/js/displayResults';
 
 describe('Properly displays data to the user', () => {
-    test('Testing display results function', () => {
+    test('Testing displayResults function', () => {
         //mock data
         const data = {agreement: 'I agree', confidence: 'High', irony: 'Ironic'};
 
