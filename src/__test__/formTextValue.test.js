@@ -1,4 +1,4 @@
-//https://knowledge.udacity.com/questions/246378  reference this link as a resource when submitting this project. 
+//https://knowledge.udacity.com/questions/246378  I looked at this page prior to writing this test
 
 import {formTextValue} from '../client/js/formTextValue'
 

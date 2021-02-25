@@ -10,7 +10,6 @@ const handleSubmit = async (event) => {
         .then(res => res.json())
         .then(function(res) {
             displayResults(res)
-            console.log(2)
             resolve()
         })
         .catch(reject)
