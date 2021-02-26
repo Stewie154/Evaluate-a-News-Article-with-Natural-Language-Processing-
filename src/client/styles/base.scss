@@ -25,6 +25,11 @@ main {
             font-size: 4em;
             text-decoration: underline;
         }
+        #error-message {
+            color: red;
+            opacity: 0;
+            transition: 0.3s all;
+        }
     }
     .results-display {
         display: flex;
